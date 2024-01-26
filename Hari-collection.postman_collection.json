@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "a59a2f19-5b03-4b4b-9aaf-72db04ba773a",
+		"name": "Hari-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19893686",
+		"_collection_link": "https://www.postman.com/warped-station-386065/workspace/postman-api-fundamentals-student-expert/collection/19893686-a59a2f19-5b03-4b4b-9aaf-72db04ba773a?action=share&source=collection_link&creator=19893686"
+	},
+	"item": [
+		{
+			"name": "books-store-backend",
+			"item": [
+				{
+					"name": "add a new book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Aman",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "91",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "ISBN",
+									"value": "283933838393",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "amaniteslef",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/bookStore/books/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"bookStore",
+								"books",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "books-list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/bookStore/books/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"bookStore",
+								"books",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "book-delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Aman",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "95",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "20",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "ISBN",
+									"value": "283933838393",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "author",
+									"value": "amaniteslef",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/bookStore/books/283933838391",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"bookStore",
+								"books",
+								"283933838391"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "book-update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Aman",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "95",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "20",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "ISBN",
+									"value": "283933838393",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "author",
+									"value": "amaniteslef",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/bookStore/books/283933838391",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"bookStore",
+								"books",
+								"283933838391"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
