@@ -44,15 +44,6 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-#### Clone the Repository
-
-Clone the Bookstore Management System API repository from GitHub:
-
-```bash
-git clone https://github.com/Amanpatel2002-g/bookstore
-```
-
-
 #### Run the API
 
 Start the API server using the following command:
